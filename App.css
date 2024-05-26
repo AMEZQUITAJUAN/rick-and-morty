@@ -1,0 +1,13 @@
+.container {
+   background-image: url();
+   background-size:cover;
+   background-repeat: no-repeat;
+   text-align: center;
+}
+
+@media (min-widt:600px) and (max-widrh:1024px){
+   .container {
+      background-size:cover;
+      width:100vw;
+   }
+}
